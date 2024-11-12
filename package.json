@@ -1,0 +1,12 @@
+{
+  "name": "aio-pif-sprite-analyser-assets",
+  "packageManager": "yarn@3.6.1",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node ./scripts/generateAssets.mjs"
+  },
+  "dependencies": {
+    "image-in-browser": "^2.7.1"
+  }
+}
