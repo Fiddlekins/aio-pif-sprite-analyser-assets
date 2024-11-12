@@ -9,7 +9,7 @@ import {normaliseTransparency} from "./image/normaliseTransparency.mjs";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.join(__dirname, '..');
 
-const maxDexNumber = 500;
+const maxDexNumber = 501;
 
 async function loadImageData(filepath) {
   const buffer = await fs.readFile(filepath);
